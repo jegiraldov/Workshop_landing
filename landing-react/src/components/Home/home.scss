@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
 
 * {
@@ -31,7 +32,7 @@
   align-items: baseline;
 
   &__h1 {
-    font-family: "Alata", sans-serif;
+    font-family: 'Alata', sans-serif;
     font-size: 30px;
   }
   &__menu {
@@ -48,4 +49,8 @@
   .head__menu {
     display: none;
   }
+}
+.box{
+  display: flex;
+  flex-direction: column;
 }

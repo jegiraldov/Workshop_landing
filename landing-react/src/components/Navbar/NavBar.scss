@@ -3,14 +3,14 @@
 // Diseño móvil
 
 @media (max-width: 1440px) {
-  .lg\:screem {
+  .lg\:screen {
     background-image: url("../../assets/desktop/image-hero-desktop.jpg");
     background-size: cover;
   }
 }
 
 @media (max-width: 375px) {
-  .sm\:screem {
+  .sm\:screen {
     background-image: url("../../assets/mobile/image-hero.jpg");
     background-size: cover;
   }

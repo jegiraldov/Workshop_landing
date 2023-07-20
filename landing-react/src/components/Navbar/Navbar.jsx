@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
-import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
 import Menu from "../menu/menu";
@@ -10,7 +9,7 @@ import "./NavBar.scss";
 const Navbar = () => {
   const [mobile, setmobile] = useState(false);
 
-  const handleClickMenu = (e) => {
+  const handleClickMenu = () => {
     setmobile(!mobile);
   };
   const menuItems = [
@@ -58,7 +57,7 @@ const Navbar = () => {
               <li key={element.id}>
                 <a
                   href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-white-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white-700 md:p-0 dark:text-white md:dark:hover:text-white-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   {element.link}
                 </a>

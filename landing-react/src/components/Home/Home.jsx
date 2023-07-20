@@ -1,13 +1,17 @@
 import "./home.scss";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/footer";
 
 const Home = () => {
   return (
-    <>
-      <header className="header back sm:screem lg:screem">
+    <div className="box">
+      <header className="header back sm:screen lg:screen">
         <Navbar />
       </header>
-    </>
+      <footer>
+        <Footer/>
+      </footer>
+    </div>
   );
 };
 
