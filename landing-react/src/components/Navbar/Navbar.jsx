@@ -43,7 +43,7 @@ const Navbar = () => {
     <nav className=" ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <Link to="/" className="flex items-center">
-          <span className="self-center text-2xl font-extrabold whitespace-nowrap dark:text-white">
+          <span className="text-left p-10 text-2xl font-extrabold whitespace-nowrap dark:text-white">
             Loopstudios
           </span>
         </Link>

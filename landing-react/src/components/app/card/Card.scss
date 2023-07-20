@@ -1,0 +1,86 @@
+@import '../styles/variables.scss';
+
+.li-imagenes{
+    list-style: none;
+    font-size: 1.2rem;
+    color: $color-White;
+
+  
+
+    & img{
+        height: 300px;
+        width: auto;
+        cursor: pointer;
+    }
+}
+
+.card-conteiner{
+    position: relative;
+
+    & li{
+        position: relative;
+
+        &:hover{
+            color:$color-black;   
+        }
+    }
+
+    & h2{
+        width: 110px;
+        margin-left: 30px;
+        position: absolute;
+        top: 70%;
+        font-family: $font-type2;
+        font-weight: 100;
+        font-size: 20px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; 
+    }
+
+    & img:hover{
+        opacity: 0.4;
+    }
+}
+
+
+
+
+
+.card-conteiner-mobile{
+    position: relative;
+    list-style: none;
+    font-size: 1.2rem;
+    color: $color-White;
+
+    &__li-imagenes{
+        position: relative;
+
+        & img{
+            width: 300px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        &:hover{
+            color:$color-black;   
+        }
+    }
+
+    & h2{
+        width: 120px;
+        margin-left: 20px;
+        position: absolute;
+        top: 35%;
+        font-family: $font-type2;
+        font-weight: 100;
+        font-size: 20px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; 
+    }
+
+    & img:hover{
+        opacity: 0.4;
+    }
+}

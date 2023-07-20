@@ -23,6 +23,19 @@
     display: flex;
     flex-direction: column;
   }
+  &__text{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 300px;
+    position: relative;
+    left : 8vw;
+    padding: 10px;
+    font-size: 30px;
+    top: 100px;
+  }
 }
 
 .head {
@@ -49,8 +62,24 @@
   .head__menu {
     display: none;
   }
+  .text{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 370px;
+    position: relative;
+    left : 1vw;
+    padding: 5px;
+    font-size: 10px;
+    top: 100px;
+  }
 }
 .box{
   display: flex;
   flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: center;
 }
